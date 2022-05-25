@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>"holi"</title>
+   
+    <link href="../css/estilos.css" rel="stylesheet" type="text/css"/> 
+  
+    <script src="../js/funciones.js"></script>
+</head>
+
+<body>
+
+    <header id="cabecera">
+        <ul>
+
+            <li>
+            
+             <a href="indexformulario.html">inicio</a>
+            </li>
+            <li>
+             
+                <li id="seccione2" onmouseover="ver(2)" onmouseout="ocultar(2)">
+                    <a href="#">usuario</a>
+                    <div id="subseccion2" >
+                        <p><a href="html/indexregistrar.html">registrar</a></p>
+                        <p><a href="html/indexlogin.html">login</a></p>
+                       
+            </li>
+            <li>
+                <a href="indextrabajo.html">Trabajo</a>
+            </li>
+            <li>
+                <a href="indexbiblioteca.html">biblioteca</a>
+            </li>
+        </ul>
+        
+    </header>
+
+<div id="contenedor">
+    
+    <h1  id="datosusuariocontenedor">registro</h1>
+    
+    <form id="cajasdetexto" action="../php/conexion.php" method="GET">
+        
+        <input type="text" class="from-control" placeholder="nombre"  name="cajanombre"><br><br>
+        <input type="text" class="from-control" placeholder="apellido"  name="cajaapellido"><br><br>
+        <input type="text" class="from-control" placeholder="email"    name="cajaemail"><br><br>
+        <input type="text" class="form-control" placeholder="#celular" name="cajanum"><br><br>
+   
+        <input type="submit"  value="registar"><br>
+        </div>
+</form>
+    
+    
+       
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
